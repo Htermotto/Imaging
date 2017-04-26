@@ -1,5 +1,7 @@
 #include "kernels.h"
 
+int i = 0;
+
 int identity_kernel[IDENTITY_KERNEL_ROWS][IDENTITY_KERNEL_COLS] =
 { {0, 0, 0},
   {0, 1, 0},
